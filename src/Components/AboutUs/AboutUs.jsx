@@ -12,7 +12,8 @@ const AboutUs = () => {
                 <img src={Logo} alt="logo" className='w-full h-full' />
             </div>
             <div className='max-w-2xl md:border-l-2 border-l-cyan-500 px-8 md:pl-24 dark:text-white'>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi amet explicabo iste, facere deserunt assumenda ipsam excepturi doloribus consequatur debitis id eaque? Unde totam veniam consequatur, enim ipsam doloribus iste est quae dolorem blanditiis sed perspiciatis illo soluta quaerat nesciunt architecto quos voluptates. Alias vitae qui praesentium! Hic, quasi deserunt?</p>
+                <p>I'm a passionate frontend developer with experience in creating dynamic and user-friendly web interfaces using React.js. I enjoy building intuitive applications and solving problems through clean, efficient code. I'm always eager to collaborate and learn, and I would be thrilled to contribute my skills to your team.
+Looking forward to the opportunity to work together and bring exciting ideas to life!</p>
             </div>
         </div>
     </section>

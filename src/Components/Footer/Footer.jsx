@@ -11,9 +11,9 @@ const Footer = () => {
             <div className='flex flex-col gap-8 items-center'>
                 <div>
                     <div className='flex gap-10 flex-wrap text-xl text-white'>
-                        <a href="" className='rounded-[50%] hover:bg-gray-700 p-2 px-3 border-2 dark:border-cyan-500'><i className="fa-brands fa-linkedin-in" /></a>
-                        <a href="" className='rounded-[50%] hover:bg-gray-700 p-2 px-3 border-2 dark:border-cyan-500'><i className="fa-brands fa-facebook-f" /></a>
-                        <a href="" className='rounded-[50%] hover:bg-gray-700 p-2 px-3 border-2 dark:border-cyan-500'><i className="fa-brands fa-instagram" /></a>
+                        <a href="https://www.linkedin.com/in/mazen-mahmoud-b03a15271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className='rounded-[50%] hover:bg-gray-700 p-2 px-3 border-2 dark:border-cyan-500'><i className="fa-brands fa-linkedin-in" /></a>
+                        <a href="https://www.facebook.com/profile.php?id=61550776358183" className='rounded-[50%] hover:bg-gray-700 p-2 px-3 border-2 dark:border-cyan-500'><i className="fa-brands fa-facebook-f" /></a>
+                        <a href="https://www.instagram.com/mazen.programmer?igsh=MTA1Z3g0ZGhwdTVycw==" className='rounded-[50%] hover:bg-gray-700 p-2 px-3 border-2 dark:border-cyan-500'><i className="fa-brands fa-instagram" /></a>
                     </div>
                 </div>
                 <div>
