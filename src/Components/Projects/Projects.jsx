@@ -3,6 +3,7 @@ import Logo from "../../assets/Logo.png"
 import { Card, Tooltip } from 'flowbite-react'
 import ShoesProjectImage from "../../assets/ShoesProject.PNG"
 import RecipeFoodImage from "../../assets/FoodRecipe.PNG"
+import EDUQUEST from "../../assets/EDUQUEST.PNG"
 const Projects = () => {
     const projects = [{
         name:"Shoes Store",
@@ -16,6 +17,12 @@ const Projects = () => {
         coverImage:RecipeFoodImage,
         githubLink:"",
         viewLink:"https://mazen-food-recipe.netlify.app/"
+    },{
+            name:"EDUQUEST Platform",
+            description:"Here in this project you can start you learning carrer with EDUQUEST platform that will make you get the full mark",
+            coverImage:EDUQUEST,
+            githubLink:"",
+            viewLink:"https://eduquest-platform.netlify.app/"
     }]
   return (
     <section className="py-16 border-t-2 border-t-cyan-500 dark:bg-gray-900" id='projects'>
