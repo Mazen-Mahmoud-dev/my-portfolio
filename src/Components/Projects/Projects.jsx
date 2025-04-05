@@ -3,27 +3,39 @@ import Logo from "../../assets/Logo.png"
 import { Card, Tooltip } from 'flowbite-react'
 import ShoesProjectImage from "../../assets/ShoesProject.PNG"
 import RecipeFoodImage from "../../assets/FoodRecipe.PNG"
-import EDUQUEST from "../../assets/EDUQUEST.PNG"
+import EDUQUESTImage from "../../assets/EDUQUEST.PNG"
+import WeatherAppImage from "../../assets/WeatherApp.PNG"
 const Projects = () => {
-    const projects = [{
-        name:"Shoes Store",
-        description:"Here In this project you can buy shoes and add them to wishlist ,Registeration and Login Features using Reactjs , tailwindcss , react-flowbite , react-router",
-        coverImage:ShoesProjectImage,
-        githubLink:"",
-        viewLink:"https://mazen-shoe-store.netlify.app"
-    },{
-        name:"Food Recipe",
-        description:"Here In this project you can search for food recipes and add them to wishlist using Reactjs and css",
-        coverImage:RecipeFoodImage,
-        githubLink:"",
-        viewLink:"https://mazen-food-recipe.netlify.app/"
-    },{
-            name:"EDUQUEST Platform",
-            description:"Here in this project you can start you learning carrer with EDUQUEST platform that will make you get the full mark",
-            coverImage:EDUQUEST,
-            githubLink:"",
-            viewLink:"https://eduquest-platform.netlify.app/"
-    }]
+    const projects = [
+    {
+      name:"Shoes Store",
+      description:"Here In this project you can buy shoes and add them to wishlist ,Registeration and Login Features using Reactjs , tailwindcss , react-flowbite , react-router",
+      coverImage:ShoesProjectImage,
+      githubLink:"",
+      viewLink:"https://mazen-shoe-store.netlify.app"
+    },
+    {
+      name:"Food Recipe",
+      description:"Here In this project you can search for food recipes and add them to wishlist using Reactjs and css",
+      coverImage:RecipeFoodImage,
+      githubLink:"",
+      viewLink:"https://mazen-food-recipe.netlify.app/"
+    },
+    {
+      name:"EDUQUEST Platform",
+      description:"Here in this project you can start you learning carrer with EDUQUEST platform that will make you get the full mark",
+      coverImage:EDUQUESTImage,
+      githubLink:"",
+      viewLink:"https://eduquest-platform.netlify.app/"
+    },
+    {
+      name:"EDUQUEST Platform",
+      description:"Here in this project you can check weather details as temp and humidity of your city with managing the state by practical using of context api",
+      coverImage:WeatherAppImage,
+      githubLink:"",
+      viewLink:"https://mazen-weather-app.netlify.app/"
+    }
+  ]
   return (
     <section className="py-16 border-t-2 border-t-cyan-500 dark:bg-gray-900" id='projects'>
         <div>
