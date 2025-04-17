@@ -9,12 +9,13 @@ const Hero = () => {
             <div className='mx-12 pt-36 max-[497px]:pt-56'>
                 <div className='flex justify-between items-center flex-col-reverse sm:flex-row'>
                     <div>
-                        <h3 className='text-4xl font-extrabold lg:text-5xl dark:text-white text-gray-800'>Hi! I'm <span className="block text-center ml-5 mt-12 dark:text-cyan-500"><ReactTypingEffect
-                            text={["Mazen Mahmoud","A Front End Developer"]}
+                        {/* <h3 className='text-4xl font-extrabold lg:text-5xl dark:text-white text-gray-800'>Hi! I'm <span className="block text-center ml-5 mt-12 dark:text-cyan-500"><ReactTypingEffect
+                            text={["Mazen Mahmoud","Freelance Front End Developer"]}
                             cursorRenderer={cursor => <h4 className='text-5xl'>{cursor}</h4>}
                             typingDelay={0.1}
                             /></span>
-                        </h3>
+                        </h3> */}
+                        <h3 className='text-4xl font-extrabold lg:text-5xl dark:text-white text-center  text-gray-800'>Freelance Front End Developer</h3>
                     </div>
                     <div>
                         <img src={HeroImage} alt="Hero" className='max-lg:h-56 max-lg:w-56' height={500} width={500} />

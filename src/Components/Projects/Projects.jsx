@@ -29,7 +29,7 @@ const Projects = () => {
       viewLink:"https://eduquest-platform.netlify.app/"
     },
     {
-      name:"EDUQUEST Platform",
+      name:"Weather App",
       description:"Here in this project you can check weather details as temp and humidity of your city with managing the state by practical using of context api",
       coverImage:WeatherAppImage,
       githubLink:"",

@@ -4,7 +4,7 @@ import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import Projects from './Components/Projects/Projects';
 import SkillsSlider from './Components/SkillsSlider/SkillsSlider';
-
+import Services from './Components/Services/Services'
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,7 @@ function App() {
         <AboutUs />
         <SkillsSlider />
         <Projects />
+        <Services />
         <Footer />
     </div>
   );
