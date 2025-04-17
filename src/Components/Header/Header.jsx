@@ -11,7 +11,7 @@ const Header = () => {
         </Navbar.Brand>
         <div className="flex md:order-2  max-[497px]:mx-auto max-[497px]:gap-5">
             <SwitcherMode />
-            <Button className='my-auto h-full'>Hire Me</Button>
+            <Button className='my-auto h-full'>Contact Me</Button>
             <Navbar.Toggle className='mr-3 ml-5' />
         </div>
         <Navbar.Collapse>
