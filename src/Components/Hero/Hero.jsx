@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroImage from '../../assets/Hero.png'
-import ReactTypingEffect from 'react-typing-effect'
+// import ReactTypingEffect from 'react-typing-effect'
 import { Button } from 'flowbite-react'
 const Hero = () => {
   return (

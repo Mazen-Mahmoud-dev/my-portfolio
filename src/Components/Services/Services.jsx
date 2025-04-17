@@ -13,7 +13,7 @@ const Services = () => {
         <span class="text-5xl font-semibold tracking-tight text-gray-900">1000 EGP</span>
       </p>
       <p class="mt-6 text-base/7 text-gray-600">The perfect plan if you&#039;re just getting started with our product.</p>
-      <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
+      <ul class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
@@ -47,7 +47,7 @@ const Services = () => {
         <span class="text-5xl font-semibold tracking-tight text-white">2500 EGP</span>
       </p>
       <p class="mt-6 text-base/7 text-gray-300">make your website attractive and professional</p>
-      <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10">
+      <ul class="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10">
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
