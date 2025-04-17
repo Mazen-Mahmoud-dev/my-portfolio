@@ -4,7 +4,7 @@ import { Card, Tooltip } from 'flowbite-react'
 import ShoesProjectImage from "../../assets/ShoesProject.PNG"
 import RecipeFoodImage from "../../assets/FoodRecipe.PNG"
 import EDUQUESTImage from "../../assets/EDUQUEST.PNG"
-import WeatherAppImage from "../../assets/WeatherApp.PNG"
+import WeatherAppImage from "../../assets/WeatherAppv2.PNG"
 const Projects = () => {
     const projects = [
     {
