@@ -1,41 +1,12 @@
 import React from 'react'
 import Logo from "../../assets/Logo.png"
 import { Card, Tooltip } from 'flowbite-react'
-import ShoesProjectImage from "../../assets/ShoesProject.PNG"
-import RecipeFoodImage from "../../assets/FoodRecipe.PNG"
-import EDUQUESTImage from "../../assets/EDUQUEST.PNG"
-import WeatherAppImage from "../../assets/WeatherAppv2.PNG"
+
+import { Link } from 'react-router-dom'
+import { projects } from './ProjectsData'
 const Projects = () => {
-    const projects = [
-    {
-      name:"Shoes Store",
-      description:"Here In this project you can buy shoes and add them to wishlist ,Registeration and Login Features using Reactjs , tailwindcss , react-flowbite , react-router",
-      coverImage:ShoesProjectImage,
-      githubLink:"",
-      viewLink:"https://mazen-shoe-store.netlify.app"
-    },
-    {
-      name:"Food Recipe",
-      description:"Here In this project you can search for food recipes and add them to wishlist using Reactjs and css",
-      coverImage:RecipeFoodImage,
-      githubLink:"",
-      viewLink:"https://mazen-food-recipe.netlify.app/"
-    },
-    {
-      name:"EDUQUEST Platform",
-      description:"Here in this project you can start you learning carrer with EDUQUEST platform that will make you get the full mark",
-      coverImage:EDUQUESTImage,
-      githubLink:"",
-      viewLink:"https://eduquest-platform.netlify.app/"
-    },
-    {
-      name:"Weather App",
-      description:"Here in this project you can check weather details as temp and humidity of your city with managing the state by practical using of context api",
-      coverImage:WeatherAppImage,
-      githubLink:"",
-      viewLink:"https://mazen-weather-app.netlify.app/"
-    }
-  ]
+    
+  
   return (
     <section className="py-16 border-t-2 border-t-cyan-500 dark:bg-gray-900" id='projects'>
         <div>
@@ -59,7 +30,7 @@ const Projects = () => {
                             </p>
                             <div className="absolute bottom-0 right-3 flex gap-8">
                                 <Tooltip content="More Details">
-                                    <a href={project.githubLink} target='_blank' rel="noreferrer" className='rounded-[50%] flex hover:bg-gray-300 p-3 dark:text-cyan-500 dark:hover:bg-gray-900'><i class="fa-solid fa-info"></i></a>
+                                    <Link to={`/projects/${project.id}`} target='_blank' rel="noreferrer" className='rounded-[50%] flex hover:bg-gray-300 p-3 dark:text-cyan-500 dark:hover:bg-gray-900'><i class="fa-solid fa-info"></i></Link>
                                 </Tooltip>
                                 <Tooltip content="View Project" className='w-32 text-center'>
                                     <a href={project.viewLink} target='_blank' rel="noreferrer" className='rounded-[50%] flex hover:bg-gray-300 p-3 dark:text-cyan-500 dark:hover:bg-gray-900'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -75,5 +46,4 @@ const Projects = () => {
     </section>
   )
 }
-
 export default Projects
