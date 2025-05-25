@@ -29,9 +29,9 @@ const Projects = () => {
                                 {project.description}
                             </p>
                             <div className="absolute bottom-0 right-3 flex gap-8">
-                                <Tooltip content="More Details">
+                                {/* <Tooltip content="More Details">
                                     <Link to={`/projects/${project.id}`} target='_blank' rel="noreferrer" className='rounded-[50%] flex hover:bg-gray-300 p-3 dark:text-cyan-500 dark:hover:bg-gray-900'><i class="fa-solid fa-info"></i></Link>
-                                </Tooltip>
+                                </Tooltip> */}
                                 <Tooltip content="View Project" className='w-32 text-center'>
                                     <a href={project.viewLink} target='_blank' rel="noreferrer" className='rounded-[50%] flex hover:bg-gray-300 p-3 dark:text-cyan-500 dark:hover:bg-gray-900'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                 </Tooltip>

@@ -14,7 +14,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}>
                         <h1 className="text-2xl md:text-5xl text-center font-bold dark:text-white">Transform Your Ideas Into <span className="highlight">Stunning Websites</span></h1>
-                        <h2 className="text-xl md:text-4xl text-center font-bold text-cyan-700">With start of 1000 EGP</h2>
+                        {/* <h2 className="text-xl md:text-4xl text-center font-bold text-cyan-700">With start of 1000 EGP</h2> */}
                         <h5 className='font-extrabold dark:text-white text-center text-gray-800'>Freelance Front End Developer</h5>
 
                     </motion.div>

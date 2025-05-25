@@ -5,7 +5,7 @@ import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import Projects from './Components/Projects/Projects';
 import SkillsSlider from './Components/SkillsSlider/SkillsSlider';
-import Services from './Components/Services/Services'
+// import Services from './Components/Services/Services'
 import ProjectDetails from './Components/Projects/ProjectDetails';
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
               <AboutUs />
               <SkillsSlider />
               <Projects />
-              <Services />
+              {/* <Services /> */}
               <Footer />
             </>
           } />
