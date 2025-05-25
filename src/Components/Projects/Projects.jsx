@@ -1,8 +1,6 @@
 import React from 'react'
 import Logo from "../../assets/Logo.png"
 import { Card, Tooltip } from 'flowbite-react'
-
-import { Link } from 'react-router-dom'
 import { projects } from './ProjectsData'
 const Projects = () => {
     
